@@ -21,8 +21,8 @@ To get started with the ActiveRecord adapter, `rails g badgeable:migrations` and
 
 Requirements
 ------------
-badgeable, ~> 0.5.1
-activerecord, > 2.1.0 (you should probably be on >= 3, though)
+* badgeable, ~> 0.5.1
+* activerecord, > 2.1.0 (you should probably be on >= 3, though)
 
 License
 -------
