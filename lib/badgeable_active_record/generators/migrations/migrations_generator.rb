@@ -1,6 +1,9 @@
+require 'rails/generators/migration'
+require 'rails/generators/active_record/migration'
+
 module Badgeable
   module Generators
-    module MigrationsGenerator < Badgeable::Generators::Base
+    class MigrationsGenerator < Badgeable::Generators::Base
       include Rails::Generators::Migration
 
       def generate_badges_migration
