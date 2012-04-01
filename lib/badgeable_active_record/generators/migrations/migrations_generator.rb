@@ -5,6 +5,7 @@ module Badgeable
   module Generators
     class MigrationsGenerator < Badgeable::Generators::Base
       include Rails::Generators::Migration
+      extend ActiveRecord::Generators::Migration
 
       def generate_badges_migration
         migration_template "badge_migration.rb", "db/migrate/create_badges.rb"

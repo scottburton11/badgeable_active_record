@@ -1,3 +1,5 @@
+require 'rails/generators'
+
 module Badgeable
   module Generators
     class Base < Rails::Generators::Base
